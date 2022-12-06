@@ -193,4 +193,10 @@ a:hover {
         transform: rotate(0deg);
         width: 50%;
     }
+        .feature-title {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 2rem;
+    }
 }
