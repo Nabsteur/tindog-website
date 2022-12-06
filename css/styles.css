@@ -1,0 +1,196 @@
+/**************************************************************
+CSS by Nabsteur 
+Tindog website is a project to learn Bootstrap from
+The Complete 2023 Web Development Bootcamp course on Udemy
+**************************************************************/
+
+
+/* HTML */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color:#ef8172;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+/* Headings */
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+.section-heading {
+    font-size: 3rem;
+    list-style: 1.5;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section {
+    background-color: white;
+}
+
+/* Buttons */
+.dl-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Navbar section */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+/* Title section */
+#title {
+    text-align: left;
+}
+.img-iphone {
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 25%;
+}
+
+/* Features section */
+#features {
+    line-height: 1.5;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+}
+#features p {
+    color: #8f8f8f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+#features h3 {
+    margin-top: 15px
+}
+.feature-title {
+    font-size: 1.5rem;
+}
+.fa-circle-check, .fa-bullseye, .fa-heart{
+    color: #ef8172;
+}
+.fa-circle-check:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: #ff4c68;
+}
+.col-lg-4 {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    padding: 5%;
+}
+
+/* Testimonials section */
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-text {
+    font-size: 2rem;
+    list-style: 1.5;
+}
+#testimonials, #press {
+    background-color: #ef8172;
+}
+
+/* Press section */
+#press {
+    padding-bottom: 3%;
+}
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+}
+#pricing h3 {
+    font-size: 2rem;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Call to action section */
+#cta {
+    padding: 5%;
+}
+#cta h3 {
+    color: #fff;
+    padding: 0 6%;
+}
+
+/* Footer section */
+#footer {
+    color: #8f8f8f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 7% 15%;
+}
+.footer-icon {
+    color: black;
+    margin: 3% 1%;
+
+}
+.footer-icon:hover {
+    color: #ff4c68;
+}
+
+/* Responsive */
+@media (max-width: 990px){
+    #title {
+        text-align: center;
+    }
+    .img-iphone {
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+}
